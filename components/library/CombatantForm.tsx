@@ -323,6 +323,11 @@ function updateStateValue(
       magic,
 
       states: activeStates,
+
+      progress:
+        initialValue?.progress ??
+        [],
+
     };
 
     onSave(template);
